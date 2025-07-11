@@ -197,6 +197,8 @@ nav{
 }
 .form_container{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   gap: 50px;
 }
 .form_item{
@@ -206,11 +208,35 @@ nav{
   font-size: 97px;
   font-weight: bold;
 }
-.form_item input[type="text"] {
-    height: 40px;
-    border-radius: 5px;
-    background-color: #fff;
-    display: block;
-    width: 100%;
-    padding: 0px 0px 0px 15px;
+.form_item label{
+  font-size: 16x;
+  font-family: "inter", serif;
 }
+.form_item input[type="text"], [type="email"], textarea{
+  height: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  padding: 13px 0px 13px 30px;
+  margin-top:10px;
+  margin-bottom: 20px;
+  border: 1px solid #d6dded;
+  outline: #d6dded;
+}
+
+textarea{
+  height: 80px;
+}
+/* .form_item {
+  height: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  padding: 13px 0px 13px 30px;
+  margin-top:10px;
+  margin-bottom: 20px;
+  border: 1px solid #d6dded;
+  outline: #d6dded;
+} */
