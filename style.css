@@ -30,6 +30,11 @@
     border-radius: 10px;
     font-family: "raleway", serif;
 }
+.btn-primary:hover{
+  background-color: #000000;
+  transition: all;
+  transition-duration: 1s;
+}
 .text_center{
   text-align: center;
 }
@@ -238,6 +243,10 @@ textarea{
   border-radius: 10px;
   font-family: "raleway", serif;
 }
+.form_button:hover{
+  background-color: #000000;
+  transition: all;
+  transition-duration: 1s;}
 
 /* Footer section */
 footer{
